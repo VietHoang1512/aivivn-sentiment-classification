@@ -1,14 +1,14 @@
 # Aivivn sentiment classification
 - The official competition had been held [here](https://www.aivivn.com/contests/1)
 
-- Late submission can be evaluated in [training ground](https://www.aivivn.com/contests/6)
+- Late submission can be evaluated in the [training ground](https://www.aivivn.com/contests/6)
 
-- My solution has achieved the #5 position on the training ground (a little bit higher than the official competition's silver medalist's score)
+- My solution has achieved the #5 position on the training ground (a little bit higher than the silver medalist's score in the official competition)
 
 ![Picture1](https://user-images.githubusercontent.com/52401767/76520473-899e9e80-6495-11ea-9f9c-ce07b1155ca0.png)
 
 ## 1/ Implementation explain
-Position on the official competition and training ground leader board (calculated by f1-score) 
+Position on the official competition and training ground leader boards (calculated by f1-score) 
 
 | Model          | F1-score | Official competition | Training ground|
 | -------------- |:--------:| :-------------------:|:--------------:|                
@@ -22,12 +22,12 @@ Position on the official competition and training ground leader board (calculate
 Naive approach for any text classification task (TF-IDF + Logistic Regression)
 ### 1.2/ [Fasttext](https://github.com/KingLeo2000/aivivn-sentiment-classification/blob/master/pretrained/fasttext.py)
 Pretrained [source](https://fasttext.cc/docs/en/supervised-tutorial.html)
-### 1.3/ [Underthesea]
+### 1.3/ [Underthesea](https://github.com/KingLeo2000/aivivn-sentiment-classification/blob/master/pretrained/underthesea.py)
 Pretrained source and [usage](https://github.com/undertheseanlp/underthesea#7-sentiment-analysis)
-### 1.4/ [GRU & fasttext]
-Build a neural network up on [fasttext](https://fasttext.cc/docs/en/crawl-vectors.html) embdedding layer (and continue training these weight)
-### 1.5/[LSTM & word2vec]
-Build a neural network up on [sonvx word2vec](https://github.com/sonvx/word2vecVN) and [ETNLP word2vec](https://github.com/vietnlp/etnlp) (freeze these weight when training)
+### 1.4/ [GRU & fasttext](https://github.com/KingLeo2000/aivivn-sentiment-classification/blob/master/neural_network/gru_fasttext.py)
+Build a neural network up on [fasttext](https://fasttext.cc/docs/en/crawl-vectors.html) embdedding layer (and continue training these weights)
+### 1.5/[LSTM & word2vec](https://github.com/KingLeo2000/aivivn-sentiment-classification/blob/master/neural_network/lstm_word2vec.py)
+Build a neural network up on [sonvx word2vec](https://github.com/sonvx/word2vecVN) and [ETNLP word2vec](https://github.com/vietnlp/etnlp) (freeze this layer during training progress)
 
 The natural and step-by-step approach can be found [here](https://drive.google.com/drive/folders/1wTbvJnc62440yaz75yexzWrof1Mee7ST)
 ## References:
