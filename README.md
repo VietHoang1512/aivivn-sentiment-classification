@@ -1,14 +1,14 @@
 # Aivivn sentiment classification
 - The official competition had been held [here](https://www.aivivn.com/contests/1)
 
-- Late submission can be evaluated in training ground [competition](https://www.aivivn.com/contests/6)
+- Late submission can be evaluated in [training ground](https://www.aivivn.com/contests/6)
 
-- My solution for the competition achieved the #5 position on the training ground 
+- My solution has achieved the #5 position on the training ground (a little bit higher than the official competition's silver medalist's score)
 
 ![Picture1](https://user-images.githubusercontent.com/52401767/76520473-899e9e80-6495-11ea-9f9c-ce07b1155ca0.png)
 
 ## 1/ Implementation explain
-Position on the official competition and training ground leader board (calculated by score) 
+Position on the official competition and training ground leader board (calculated by f1-score) 
 
 | Model          | F1-score | Official competition | Training ground|
 | -------------- |:--------:| :-------------------:|:--------------:|                
@@ -35,3 +35,5 @@ The natural and step-by-step approach can be found [here](https://drive.google.c
 - [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
 - [How does FastText classifier work under the hood?](https://towardsdatascience.com/fasttext-bag-of-tricks-for-efficient-text-classification-513ba9e302e7)
 - [Phân loại văn bản tự động bằng Machine Learning như thế nào?](https://viblo.asia/p/phan-loai-van-ban-tu-dong-bang-machine-learning-nhu-the-nao-4P856Pa1ZY3)
+
+## Last updated : 12/3/2020 (on progress)
